@@ -3,9 +3,6 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss(),
-  ],
-  base: '/promptpad/',
+  plugins: [react(), tailwindcss()],
+  base: '/promptpad/', // <-- Asegúrate de que esto sea el nombre de tu repo
 })
